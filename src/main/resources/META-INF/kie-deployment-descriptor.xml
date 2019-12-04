@@ -9,7 +9,12 @@
     <event-listeners/>
     <task-event-listeners/>
     <globals/>
-    <work-item-handlers/>
+    <work-item-handler>
+        <resolver>mvel</resolver>
+        <identifier>new org.jbpm.process.workitem.jms.JMSSendTaskWorkItemHandler("java:/JmsXA", "java:jboss/exported/jms/queue/KIE.SERVER.SIGNAL")</identifier>
+        <parameters/>
+        <name>External Send Task</name>
+    </work-item-handler>
     <environment-entries/>
     <configurations/>
     <required-roles/>

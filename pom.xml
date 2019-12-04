@@ -34,8 +34,8 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.optaplanner</groupId>
-      <artifactId>optaplanner-persistence-jaxb</artifactId>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-workitems-jms</artifactId>
       <version>7.26.0.Final-redhat-00005</version>
       <scope>provided</scope>
     </dependency>
