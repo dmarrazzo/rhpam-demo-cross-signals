@@ -41,7 +41,7 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_EF13AEDD-F3D5-4616-A1AF-65FA6FFA94BA</bpmn2:incoming>
       <bpmn2:outgoing>_7601A194-FF71-473B-A1EB-D1ECBB2BF62E</bpmn2:outgoing>
-      <bpmn2:script><![CDATA[kcontext.setVariable("SignalDeploymentId", "com.myspace:cross-signals:.*");]]></bpmn2:script>
+      <bpmn2:script><![CDATA[kcontext.setVariable("SignalDeploymentId", "cross-signals_.*");]]></bpmn2:script>
     </bpmn2:scriptTask>
   </bpmn2:process>
   <bpmndi:BPMNDiagram id="_Tq9bIhaTEeqPlO3gUXFX-g">
